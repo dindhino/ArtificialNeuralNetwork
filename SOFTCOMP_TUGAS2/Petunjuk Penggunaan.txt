@@ -1,0 +1,20 @@
+Cara menggunakan program ini adalah sebagai berikut.
+1. Jalankan preprocessingdata.m untuk load data training dan encode label kelas
+2. Jalankan ToolBox Neural Net Pattern Recognition
+3. Setting parameter yang akan digunakan pada ToolBox
+	Parameter yang digunakan adalah:
+	- Inputs					: datatrain
+	- Targets					: kelastrain
+	- Samples are				: Matrix rows
+	- Training					: 70%
+	- Validation				: 15%
+	- Testing					: 15%
+	- Number of Hidden Neurons	: 4
+4. Lakukan train dan retrain sampai dihasilkan persentase error yang diinginkan (paling kecil)
+5. Generate code (Matlab Matrix-Only Function)
+	Code sudah tersimpan dengan nama file myNeuralNetworkFunction.m
+6. Jalankan testingJST.m untuk memprediksi label kelas pada data testing
+	Ubah baris ke-8 jika ingin mengganti fungsi neural network
+7. Hasil prediksi akan tersimpan pada file TestsetTugas2.xlsx
+
+	
