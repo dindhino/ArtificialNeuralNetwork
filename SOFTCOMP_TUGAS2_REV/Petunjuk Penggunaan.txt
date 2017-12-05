@@ -1,0 +1,5 @@
+Cara menggunakan program ini adalah sebagai berikut.
+1. Jalankan main.m untuk melakukan training
+2. Lakukan train dan retrain sampai dihasilkan nilai akurasi yang diinginkan (paling besar)
+3. Jalankan prediksi.m untuk memprediksi label kelas pada data testing
+4. Hasil prediksi akan tersimpan pada file TestsetTugas2.xlsx
